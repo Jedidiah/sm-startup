@@ -1,4 +1,4 @@
-import { IPrismicImage, ISlice } from "../sm";
+import { IPrismicImage, ISlice } from "../../types/sm";
 
 type TSiteTitle = string;
 type TSiteLogo = IPrismicImage;
