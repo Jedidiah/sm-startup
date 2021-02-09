@@ -1,0 +1,53 @@
+{
+  "id": "site_navigation",
+  "type": "SharedSlice",
+  "name": "SiteNavigation",
+  "description": "SiteNavigation",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SiteNavigation",
+      "primary": {
+        "siteTitle": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "siteTitle",
+            "placeholder": ""
+          }
+        },
+        "siteLogo": {
+          "type": "Image",
+          "config": {
+            "id": "siteLogo",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "linkText": {
+          "config": {
+            "label": "Link Text",
+            "placeholder": "eg: Product",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "linkUrl": {
+          "config": {
+            "label": "Link URL",
+            "placeholder": "eg. /product",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}
