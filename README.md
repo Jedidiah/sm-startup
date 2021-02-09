@@ -1,0 +1,3 @@
+# Startup - Slice Machine Contest
+
+
