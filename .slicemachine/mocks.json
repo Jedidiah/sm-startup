@@ -5,5 +5,21 @@
         "content": null
       }
     }
+  },
+  "EmailSignup": {
+    "primary": {
+      "title": {
+        "content": null
+      },
+      "subtitle": {
+        "content": null
+      },
+      "placeholder": {
+        "content": null
+      },
+      "buttonLabel": {
+        "content": null
+      }
+    }
   }
 }

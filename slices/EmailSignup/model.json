@@ -3,29 +3,48 @@
   "type": "SharedSlice",
   "name": "EmailSignup",
   "description": "EmailSignup",
-  "variations": [{
-    "id": "default-slice",
-    "name": "Default slice",
-    "docURL": "...",
-    "version": "sktwi1xtmkfgx8626",
-    "description": "EmailSignup",
-    "primary": {
-      "title": {
-        "type": "StructuredText",
-        "config": {
-          "single": "heading1",
-          "label": "Title",
-          "placeholder": "This is where it all begins..."
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "EmailSignup",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "subtitle": {
+          "config": {
+            "label": "SubTitle",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "placeholder": {
+          "config": {
+            "label": "Placeholder",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "buttonLabel": {
+          "config": {
+            "label": "Submit Button Label",
+            "placeholder": "Subscribe",
+            "type": "Text"
+          },
+          "type": "Text"
         }
       },
-      "description": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "Description",
-          "placeholder": "A nice description of your feature"
-        }
-      }
+      "items": {}
     }
-  }]
+  ]
 }

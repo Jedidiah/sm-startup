@@ -7,7 +7,7 @@ export const UnwrappedEmailSignup = (props: TEmailSignupProps) => (
 
 function unwrapSlice(Component: typeof UnwrappedEmailSignup) {
   return ({ slice }: { slice: TEmailSignupSlice }) => (
-    <Component {...slice.primary} items={slice.items} />
+    <Component {...slice.primary} />
   );
 }
 
