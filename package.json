@@ -25,6 +25,8 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "next": "^10.0.5",
     "next-slicezone": "^0.0.12",
     "next-transpile-modules": "^6.1.0",
@@ -36,6 +38,10 @@
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.12.13",
+    "@emotion/babel-plugin": "^11.2.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@storybook/addon-a11y": "^6.1.17",
     "@storybook/addon-essentials": "^6.1.17",
     "@storybook/addons": "^6.1.17",
     "@storybook/react": "^6.1.17",
