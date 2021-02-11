@@ -35,7 +35,8 @@
     "react": "^17.0.1",
     "react-aria": "^3.3.0",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-three-fiber": "^5.3.18"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.12.13",
