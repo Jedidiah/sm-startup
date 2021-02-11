@@ -6,6 +6,7 @@ export type TEmailSignupPrimary = {
   subtitle: string;
   placeholder: string;
   buttonLabel: string;
+  signupComplete?: boolean;
 };
 
 export type TEmailSignupItem = {};

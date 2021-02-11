@@ -5,7 +5,7 @@ import { AriaTextFieldOptions } from "./EmailSignup";
 import { useTextField } from "@react-aria/textfield";
 import { useFocusRing } from "@react-aria/focus";
 import { useVisuallyHidden } from "@react-aria/visually-hidden";
-import { emailSignupStyles } from ".";
+import { emailSignupStyles } from "./emailSignupStyles";
 
 export function EmailInput(props: AriaTextFieldOptions) {
   const ref = React.useRef();
@@ -19,6 +19,7 @@ export function EmailInput(props: AriaTextFieldOptions) {
       ref={ref}
       {...inputProps}
       {...focusProps}
+      required
       css={
         isFocusVisible
           ? [emailSignupStyles.input, emailSignupStyles.inputFocus]
