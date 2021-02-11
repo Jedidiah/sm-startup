@@ -16,3 +16,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.sb-show-main.sb-main-padded {
+  padding: 0.5rem;
+}
