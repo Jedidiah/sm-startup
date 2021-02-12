@@ -3,29 +3,90 @@
   "type": "SharedSlice",
   "name": "ProductTour",
   "description": "ProductTour",
-  "variations": [{
-    "id": "default-slice",
-    "name": "Default slice",
-    "docURL": "...",
-    "version": "sktwi1xtmkfgx8626",
-    "description": "ProductTour",
-    "primary": {
-      "title": {
-        "type": "StructuredText",
-        "config": {
-          "single": "heading1",
-          "label": "Title",
-          "placeholder": "This is where it all begins..."
-        }
-      },
-      "description": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "Description",
-          "placeholder": "A nice description of your feature"
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ProductTour",
+      "primary": {},
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph,em,strong,list-item,o-list-item"
+          },
+          "type": "StructuredText"
+        },
+        "rotationX": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "rotationX",
+            "placeholder": ""
+          }
+        },
+        "rotationY": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "rotationY",
+            "placeholder": ""
+          }
+        },
+        "rotationZ": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "rotationZ",
+            "placeholder": ""
+          }
+        },
+        "scale": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "scale",
+            "placeholder": ""
+          }
+        },
+        "translateX": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "translateX",
+            "placeholder": ""
+          }
+        },
+        "translateY": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "translateY",
+            "placeholder": ""
+          }
+        },
+        "translateZ": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "translateZ",
+            "placeholder": ""
+          }
         }
       }
     }
-  }]
+  ]
 }

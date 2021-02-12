@@ -1,20 +1,47 @@
-[{
-  "id": "default-slice",
-  "name": "Default slice",
-  "docURL": "...",
-  "version": "sktwi1xtmkfgx8626",
-  "description": "ProductTour",
-  "primary": {
-    "title": [{
-      "type": "heading1",
-      "text": "This is where it all begins...",
-      "spans": []
-    }],
-    "description": [{
-      "type": "paragraph",
-      "text": "start by editing this slice from inside the SliceMachine builder!",
-      "spans": []
-    }]
-  },
-  "slice_type": "product_tour"
-}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ProductTour",
+    "primary": {},
+    "items": [
+      {
+        "title": "cultivate out-of-the-box metrics",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Irure duis eiusmod duis quis tempor incididunt do. Fugiat veniam eiusmod et ex voluptate adipisicing. Nisi amet labore sunt id amet adipisicing aliquip aliquip irure adipisicing voluptate laborum.",
+            "spans": []
+          }
+        ],
+        "rotationX": 131,
+        "rotationY": 8585,
+        "rotationZ": 2351,
+        "scale": 2192,
+        "translateX": 9012,
+        "translateY": 7727,
+        "translateZ": 6120
+      },
+      {
+        "title": "architect 24/365 e-commerce",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Ad mollit commodo officia ex. Laborum deserunt sint minim mollit proident eu esse occaecat est. Duis tempor cupidatat ullamco quis dolore.",
+            "spans": []
+          }
+        ],
+        "rotationX": 7981,
+        "rotationY": 4738,
+        "rotationZ": 3468,
+        "scale": 8105,
+        "translateX": 680,
+        "translateY": 4163,
+        "translateZ": 1374
+      }
+    ],
+    "slice_type": "product_tour"
+  }
+]

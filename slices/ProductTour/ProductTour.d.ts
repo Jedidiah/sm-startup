@@ -1,25 +1,22 @@
+import { RichTextBlock } from "prismic-reactjs";
 import { IPrismicImage, ISlice } from "../../types/sm";
 
-type TSiteTitle = string;
-type TSiteLogo = IPrismicImage;
-
-export type TProductTourPrimary = {
-  siteTitle: TSiteTitle;
-  siteLogo: TSiteLogo;
-}
+export type TProductTourPrimary = {};
 
 export type TProductTourItem = {
-  linkText: string;
-  linkUrl: {
-    link_type: string;
-    url: string;
-  };
+  title: string;
+  description: RichTextBlock[];
+  rotationX?: number;
+  rotationY?: number;
+  rotationZ?: number;
+  scale?: number;
+  translateX?: number;
+  translateY?: number;
+  translateZ?: number;
 };
 
 export type TProductTourProps = {
-  siteTitle: TSiteTitle;
-  siteLogo: TSiteLogo;
   items: TProductTourItem[];
-}
+};
 
 export type TProductTourSlice = ISlice<TProductTourPrimary, TProductTourItem>;
