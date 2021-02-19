@@ -3,12 +3,22 @@
     [
       "next/babel",
       {
+        "preset-env": {},
+        "transform-runtime": {},
+        "styled-jsx": {},
+        "class-properties": {},
         "preset-react": {
-          "runtime": "automatic",
+          // "runtime": "automatic",
           "importSource": "@emotion/react"
         }
       }
     ]
   ],
-  "plugins": ["@emotion/babel-plugin"]
+  "plugins": [[
+    "@emotion",
+    {
+      "sourceMap": false,
+      "cssPropOptimization": false
+    }
+  ]]
 }
