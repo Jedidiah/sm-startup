@@ -1,0 +1,101 @@
+{
+  "id": "product_header",
+  "type": "SharedSlice",
+  "name": "ProductHeader",
+  "description": "ProductHeader",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ProductHeader",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "subtitle": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "subtitle",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "price": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "price",
+            "placeholder": ""
+          }
+        },
+        "availability": {
+          "type": "Select",
+          "config": {
+            "label": "",
+            "id": "availability",
+            "placeholder": "",
+            "default_value": "",
+            "options": [
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "",
+            "type": "Image",
+            "constraint": {
+              "width": 900,
+              "height": 450
+            },
+            "thumbnails": [
+              {
+                "name": "thumbnail",
+                "width": 300,
+                "height": 150
+              }
+            ]
+          },
+          "type": "Image"
+        },
+        "youtube": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "youtube",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "caption": {
+          "config": {
+            "label": "Caption",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

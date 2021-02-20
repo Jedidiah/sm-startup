@@ -29,6 +29,16 @@
           "patternType": "PARAGRAPH",
           "blocks": 1
         }
+      },
+      "title": {
+        "content": null
+      }
+    }
+  },
+  "ProductHeader": {
+    "items": {
+      "caption": {
+        "content": null
       }
     }
   }

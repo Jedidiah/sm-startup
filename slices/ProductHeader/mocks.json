@@ -1,0 +1,150 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ProductHeader",
+    "primary": {
+      "title": "cultivate sexy ROI",
+      "subtitle": "streamline efficient architectures",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Irure cupidatat ullamco fugiat reprehenderit est. Culpa incididunt exercitation proident ipsum eu laborum deserunt ipsum culpa. Esse amet aliqua do commodo commodo.",
+          "spans": []
+        }
+      ],
+      "price": 8035,
+      "availability": ""
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 450
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=450&fit=crop",
+          "thumbnail": {
+            "dimensions": {
+              "width": 300,
+              "height": 150
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=300&h=150&fit=crop"
+          }
+        },
+        "youtube": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "caption": "transform collaborative paradigms"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 450
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=450&fit=crop",
+          "thumbnail": {
+            "dimensions": {
+              "width": 300,
+              "height": 150
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=300&h=150&fit=crop"
+          }
+        },
+        "youtube": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "caption": "evolve cross-media action-items"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 450
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=450&fit=crop",
+          "thumbnail": {
+            "dimensions": {
+              "width": 300,
+              "height": 150
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=300&h=150&fit=crop"
+          }
+        },
+        "youtube": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "caption": "drive sticky platforms"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 450
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=450&fit=crop",
+          "thumbnail": {
+            "dimensions": {
+              "width": 300,
+              "height": 150
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=300&h=150&fit=crop"
+          }
+        },
+        "youtube": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "caption": "orchestrate one-to-one vortals"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 450
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=450&fit=crop",
+          "thumbnail": {
+            "dimensions": {
+              "width": 300,
+              "height": 150
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=300&h=150&fit=crop"
+          }
+        },
+        "youtube": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "caption": "envisioneer user-centric niches"
+      }
+    ],
+    "slice_type": "product_header"
+  }
+]
