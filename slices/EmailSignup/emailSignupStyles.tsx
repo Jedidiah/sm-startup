@@ -30,6 +30,16 @@ export const emailSignupStyles = {
     padding: 0.75rem 1rem;
     max-width: 100%;
   `,
+  success: css`
+    background: #fff;
+    border: 1px solid green;
+    font-size: 1.25em;
+    padding: 0.75rem 1rem;
+    max-width: 48rem;
+    color: green;
+    margin: 0 auto;
+    border-radius: 6px;
+  `,
   inputFocus: css`
     outline: lightblue 2px solid;
   `,

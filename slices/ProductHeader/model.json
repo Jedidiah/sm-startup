@@ -12,51 +12,51 @@
       "description": "ProductHeader",
       "primary": {
         "title": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "title",
-            "placeholder": ""
-          }
+            "label": "Title",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
         },
         "subtitle": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "subtitle",
-            "placeholder": ""
-          }
+            "label": "Subtitle",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
         },
         "description": {
-          "type": "StructuredText",
           "config": {
-            "label": "",
-            "id": "description",
+            "label": "Short Description",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-          }
+            "type": "StructuredText",
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
         },
         "price": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "price",
-            "placeholder": ""
-          }
+            "label": "Price",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         },
         "availability": {
-          "type": "Select",
           "config": {
-            "label": "",
-            "id": "availability",
+            "label": "Availability",
             "placeholder": "",
-            "default_value": "",
             "options": [
-              "",
-              ""
-            ]
-          }
+              "available",
+              "preorder",
+              "soldout"
+            ],
+            "type": "Select"
+          },
+          "type": "Select"
         }
       },
       "items": {

@@ -1,5 +1,3 @@
-/** @jsx jsx */
-import { jsx } from "@emotion/react";
 import { TEmailSignupProps, TEmailSignupSlice } from "./EmailSignup";
 import { SubmitButton } from "./SubmitButton";
 import { EmailInput } from "./EmailInput";
@@ -15,7 +13,7 @@ export function UnwrappedEmailSignup(props: TEmailSignupProps) {
       <h2 css={emailSignupStyles.title}>{props.title}</h2>
       <p css={emailSignupStyles.subtitle}>{props.subtitle}</p>
       {signupComplete || props.signupComplete ? (
-        <div css={emailSignupStyles.input}>
+        <div css={emailSignupStyles.success}>
           Subscribed! Check your inbox for a confirmation email.
         </div>
       ) : (

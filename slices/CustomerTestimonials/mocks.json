@@ -1,20 +1,72 @@
-[{
-  "id": "default-slice",
-  "name": "Default slice",
-  "docURL": "...",
-  "version": "sktwi1xtmkfgx8626",
-  "description": "CustomerTestimonials",
-  "primary": {
-    "title": [{
-      "type": "heading1",
-      "text": "This is where it all begins...",
-      "spans": []
-    }],
-    "description": [{
-      "type": "paragraph",
-      "text": "start by editing this slice from inside the SliceMachine builder!",
-      "spans": []
-    }]
-  },
-  "slice_type": "customer_testimonials"
-}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "CustomerTestimonials",
+    "primary": {
+      "title": "recontextualize scalable e-tailers"
+    },
+    "items": [
+      {
+        "quote": [
+          {
+            "type": "paragraph",
+            "text": "Culpa culpa qui deserunt cupidatat occaecat id irure esse mollit sint do non fugiat eiusmod anim. Laborum magna voluptate anim ex id ad ipsum Lorem anim incididunt mollit ut cupidatat anim. Excepteur esse irure nisi culpa.",
+            "spans": []
+          }
+        ],
+        "name": "reinvent holistic eyeballs",
+        "avatar": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "quote": [
+          {
+            "type": "paragraph",
+            "text": "Esse nostrud mollit officia excepteur irure nisi cupidatat. Lorem cupidatat pariatur proident.",
+            "spans": []
+          }
+        ],
+        "name": "visualize efficient communities",
+        "avatar": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "quote": [
+          {
+            "type": "paragraph",
+            "text": "Qui ad sunt non Lorem esse cillum tempor ad ad ut nisi id culpa deserunt excepteur. Nisi anim culpa ea pariatur anim ipsum aliqua est veniam non cillum nisi anim. Sit fugiat exercitation irure.",
+            "spans": []
+          }
+        ],
+        "name": "iterate customized convergence",
+        "avatar": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
+        }
+      }
+    ],
+    "slice_type": "customer_testimonials"
+  }
+]

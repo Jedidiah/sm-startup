@@ -27,6 +27,7 @@ export const productHeaderStyles = {
     min-width: 20rem;
     max-width: 30rem;
     flex: 1;
+    line-height: 1.4;
   `,
   price: css`
     font-size: 2rem;

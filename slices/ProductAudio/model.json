@@ -1,0 +1,45 @@
+{
+  "id": "product_audio",
+  "type": "SharedSlice",
+  "name": "ProductAudio",
+  "description": "ProductAudio",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ProductAudio",
+      "primary": {
+        "audioFile": {
+          "config": {
+            "label": "Audio File",
+            "placeholder": "",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "imageOff": {
+          "config": {
+            "label": "Image for Audio Off",
+            "type": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "imageOn": {
+          "config": {
+            "label": "Image for Audio On",
+            "type": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

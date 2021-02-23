@@ -40,6 +40,67 @@
       "caption": {
         "content": null
       }
+    },
+    "primary": {
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "title": {
+        "content": null
+      },
+      "subtitle": {
+        "content": null
+      }
+    }
+  },
+  "ProductAudio": {
+    "primary": {
+      "imageOff": {
+        "content": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2"
+      },
+      "imageOn": {
+        "content": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+      }
+    }
+  },
+  "TechSpecs": {
+    "primary": {
+      "title": {
+        "content": null
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "labelTitle": {
+        "content": null
+      },
+      "descriptionTitle": {
+        "content": null
+      }
+    },
+    "items": {
+      "label": {
+        "content": null
+      },
+      "description": {
+        "content": null
+      }
+    }
+  },
+  "CustomerTestimonials": {
+    "items": {
+      "quote": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
     }
   }
 }

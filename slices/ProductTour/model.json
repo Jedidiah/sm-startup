@@ -13,78 +13,78 @@
       "primary": {},
       "items": {
         "title": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "title",
-            "placeholder": ""
-          }
+            "label": "Title",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
         },
         "description": {
           "config": {
-            "label": "",
+            "label": "Description",
             "placeholder": "",
             "allowTargetBlank": true,
             "type": "StructuredText",
-            "single": "paragraph,em,strong,list-item,o-list-item"
+            "single": "paragraph,strong,em,list-item,o-list-item"
           },
           "type": "StructuredText"
         },
         "rotationX": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "rotationX",
-            "placeholder": ""
-          }
+            "label": "Rotation X",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         },
         "rotationY": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "rotationY",
-            "placeholder": ""
-          }
+            "label": "Rotation Y",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         },
         "rotationZ": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "rotationZ",
-            "placeholder": ""
-          }
+            "label": "Rotation Z",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         },
         "scale": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "scale",
-            "placeholder": ""
-          }
+            "label": "Scale",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         },
         "translateX": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "translateX",
-            "placeholder": ""
-          }
+            "label": "Translate X",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         },
         "translateY": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "translateY",
-            "placeholder": ""
-          }
+            "label": "Translate Y",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         },
         "translateZ": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "translateZ",
-            "placeholder": ""
-          }
+            "label": "Translate Z",
+            "placeholder": "",
+            "type": "Number"
+          },
+          "type": "Number"
         }
       }
     }

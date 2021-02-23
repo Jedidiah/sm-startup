@@ -3,29 +3,52 @@
   "type": "SharedSlice",
   "name": "CustomerTestimonials",
   "description": "CustomerTestimonials",
-  "variations": [{
-    "id": "default-slice",
-    "name": "Default slice",
-    "docURL": "...",
-    "version": "sktwi1xtmkfgx8626",
-    "description": "CustomerTestimonials",
-    "primary": {
-      "title": {
-        "type": "StructuredText",
-        "config": {
-          "single": "heading1",
-          "label": "Title",
-          "placeholder": "This is where it all begins..."
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CustomerTestimonials",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
         }
       },
-      "description": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "Description",
-          "placeholder": "A nice description of your feature"
+      "items": {
+        "quote": {
+          "config": {
+            "label": "Testimonial",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "multi": "paragraph,em,strong"
+          },
+          "type": "StructuredText"
+        },
+        "name": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "name",
+            "placeholder": ""
+          }
+        },
+        "avatar": {
+          "type": "Image",
+          "config": {
+            "id": "avatar",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
         }
       }
     }
-  }]
+  ]
 }

@@ -8,38 +8,55 @@
     "primary": {},
     "items": [
       {
-        "title": "cultivate out-of-the-box metrics",
+        "title": "e-enable 24/7 schemas",
         "description": [
           {
             "type": "paragraph",
-            "text": "Irure duis eiusmod duis quis tempor incididunt do. Fugiat veniam eiusmod et ex voluptate adipisicing. Nisi amet labore sunt id amet adipisicing aliquip aliquip irure adipisicing voluptate laborum.",
+            "text": "Esse dolore dolore elit enim nulla ea duis sint. Do ea ea exercitation pariatur. Sit labore aliqua magna est do excepteur nostrud laborum incididunt occaecat fugiat occaecat nulla voluptate.",
             "spans": []
           }
         ],
-        "rotationX": 131,
-        "rotationY": 8585,
-        "rotationZ": 2351,
-        "scale": 2192,
-        "translateX": 9012,
-        "translateY": 7727,
-        "translateZ": 6120
+        "rotationX": 2419,
+        "rotationY": 4160,
+        "rotationZ": 3545,
+        "scale": 890,
+        "translateX": 3099,
+        "translateY": 862,
+        "translateZ": 1132
       },
       {
-        "title": "architect 24/365 e-commerce",
+        "title": "evolve revolutionary infomediaries",
         "description": [
           {
             "type": "paragraph",
-            "text": "Ad mollit commodo officia ex. Laborum deserunt sint minim mollit proident eu esse occaecat est. Duis tempor cupidatat ullamco quis dolore.",
+            "text": "Duis qui ex qui esse non id magna esse dolore. Ex voluptate aliquip pariatur cupidatat aute ipsum.",
             "spans": []
           }
         ],
-        "rotationX": 7981,
-        "rotationY": 4738,
-        "rotationZ": 3468,
-        "scale": 8105,
-        "translateX": 680,
-        "translateY": 4163,
-        "translateZ": 1374
+        "rotationX": 9549,
+        "rotationY": 5217,
+        "rotationZ": 203,
+        "scale": 758,
+        "translateX": 9780,
+        "translateY": 5060,
+        "translateZ": 2869
+      },
+      {
+        "title": "implement out-of-the-box convergence",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Magna eiusmod non quis id voluptate culpa elit dolor. Lorem excepteur elit aliqua tempor laborum.",
+            "spans": []
+          }
+        ],
+        "rotationX": 5186,
+        "rotationY": 7401,
+        "rotationZ": 3091,
+        "scale": 9486,
+        "translateX": 5708,
+        "translateY": 4244,
+        "translateZ": 8464
       }
     ],
     "slice_type": "product_tour"

@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { css, jsx } from "@emotion/react";
 import React from "react";
 import { useButton } from "@react-aria/button";

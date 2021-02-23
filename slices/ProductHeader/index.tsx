@@ -46,7 +46,9 @@ export const UnwrappedProductHeader = (props: TProductHeaderProps) => {
         <p css={productHeaderStyles.price}>£{props.price}</p>
         <p>
           <button css={productHeaderStyles.buyNowButton}>
-            Order your own birdbox
+            {props.availability === "available"
+              ? "Order your own birdbox"
+              : "View the KickStarter"}
           </button>
         </p>
       </div>

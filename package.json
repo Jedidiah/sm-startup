@@ -13,7 +13,7 @@
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
     "prismic": "prismic",
     "slicemachine": "start-slicemachine --port 9999",
-    "storybook": "start-storybook -p 8888",
+    "storybook": "start-storybook -p 8888 -s public",
     "build-storybook": "build-storybook"
   },
   "husky": {
@@ -29,6 +29,7 @@
     "@emotion/styled": "^11.1.5",
     "@react-three/drei": "^3.8.5",
     "@rehooks/component-size": "^1.0.3",
+    "howler": "^2.2.1",
     "next": "^10.0.5",
     "next-slicezone": "^0.0.12",
     "next-transpile-modules": "^6.1.0",
@@ -51,6 +52,7 @@
     "@storybook/addons": "^6.1.18",
     "@storybook/react": "^6.1.18",
     "@storybook/theming": "^6.1.18",
+    "@types/howler": "^2.2.1",
     "babel-loader": "^8.2.2",
     "babel-plugin-react-require": "^3.1.3",
     "husky": "^5.0.9",

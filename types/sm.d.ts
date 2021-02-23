@@ -17,4 +17,9 @@ export interface IPrismicImage {
   alt?: string;
   copyright?: string | null;
   url: string;
-};
+}
+
+export interface IPrismicLink {
+  link_type: "Web";
+  url: string;
+}

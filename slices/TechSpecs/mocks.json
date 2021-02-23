@@ -1,20 +1,40 @@
-[{
-  "id": "default-slice",
-  "name": "Default slice",
-  "docURL": "...",
-  "version": "sktwi1xtmkfgx8626",
-  "description": "TechSpecs",
-  "primary": {
-    "title": [{
-      "type": "heading1",
-      "text": "This is where it all begins...",
-      "spans": []
-    }],
-    "description": [{
-      "type": "paragraph",
-      "text": "start by editing this slice from inside the SliceMachine builder!",
-      "spans": []
-    }]
-  },
-  "slice_type": "tech_specs"
-}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TechSpecs",
+    "primary": {
+      "title": "generate frictionless action-items",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Qui pariatur occaecat ipsum mollit est elit. Laborum exercitation irure aliqua cupidatat sunt tempor veniam consequat dolor tempor.",
+          "spans": []
+        }
+      ],
+      "labelTitle": "enhance 24/7 metrics",
+      "descriptionTitle": "enable innovative vortals"
+    },
+    "items": [
+      {
+        "label": "incubate ubiquitous web-readiness",
+        "description": "visualize impactful platforms"
+      },
+      {
+        "label": "reinvent web-enabled interfaces",
+        "description": "matrix extensible blockchains"
+      },
+      {
+        "label": "reintermediate user-centric initiatives",
+        "description": "innovate strategic vortals"
+      },
+      {
+        "label": "e-enable viral systems",
+        "description": "synthesize cross-media systems"
+      }
+    ],
+    "slice_type": "tech_specs"
+  }
+]

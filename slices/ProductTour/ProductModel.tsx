@@ -1,8 +1,25 @@
+import { jsx } from "@emotion/react";
 import { TProductTourItem } from "./ProductTour";
 import { Canvas } from "react-three-fiber";
-import React from "react";
+import React, { Suspense, useRef } from "react";
 import { config } from "react-spring";
 import { animated as animatedThree, useSpring } from "react-spring/three";
+import { productTourStyles } from "./productTourStyles";
+import useComponentSize from "@rehooks/component-size";
+import { Center, OrbitControls, Shadow, useGLTF } from "@react-three/drei";
+import { Mesh } from "three";
+
+function BirdHouse(props) {
+  const group = useRef();
+  const { nodes, materials } = useGLTF("/housemodel.glb");
+  return (
+    <group ref={group} {...props} dispose={null}>
+      <mesh material={materials["default"]} geometry={nodes.House.geometry} />
+      <mesh material={materials["default"]} geometry={nodes.Roof.geometry} />
+      <mesh material={materials["default"]} geometry={nodes.Perch.geometry} />
+    </group>
+  );
+}
 
 export default function ProductModel({
   rotationX = 0,
@@ -20,14 +37,25 @@ export default function ProductModel({
     config: config.gentle,
   });
 
+  const ref = useRef(null);
+  const size = useComponentSize(ref);
+  // const { nodes, materials } = useGLTF("./BoomBox.glb");
+  // console.log({ nodes, materials });
+
   return (
-    <Canvas style={{ flexGrow: 1, flexBasis: "70%", minHeight: "70vh" }}>
-      <ambientLight />
-      <pointLight position={[10, 10, 10]} />
-      <animatedThree.mesh {...objectProps}>
-        <boxBufferGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color={"orange"} />
-      </animatedThree.mesh>
-    </Canvas>
+    <div ref={ref} css={productTourStyles.canvasContainer}>
+      <Canvas style={size}>
+        <ambientLight intensity={0.5} />
+        <pointLight position={[10, 10, 10]} />
+
+        <Suspense fallback={null}>
+          <animatedThree.group {...objectProps}>
+            <BirdHouse />
+          </animatedThree.group>
+        </Suspense>
+      </Canvas>
+    </div>
   );
 }
+
+useGLTF.preload("/housemodel.glb");
