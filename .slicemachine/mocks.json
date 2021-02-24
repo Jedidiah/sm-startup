@@ -92,15 +92,5 @@
         "content": null
       }
     }
-  },
-  "CustomerTestimonials": {
-    "items": {
-      "quote": {
-        "config": {
-          "patternType": "PARAGRAPH",
-          "blocks": 1
-        }
-      }
-    }
   }
 }

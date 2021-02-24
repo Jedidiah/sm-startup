@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { TProductTourProps } from "./ProductTour";
 import ProductModel from "./ProductModel";
 

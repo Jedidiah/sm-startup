@@ -7,6 +7,7 @@ const withTM = require("next-transpile-modules")([
 ]);
 
 module.exports = withTM({
+  distDir: "build",
   webpack: (config) => {
     config.module.rules.push({
       test: /react-spring/,

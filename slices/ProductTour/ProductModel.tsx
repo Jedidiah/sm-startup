@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { jsx } from "@emotion/react";
 import { TProductTourItem } from "./ProductTour";
 import { Canvas } from "react-three-fiber";
